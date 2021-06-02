@@ -6,8 +6,8 @@
     "start": "node ./server.js"
   },
   "engines": {
-    "node": "^10.00.0",
-    "npm": "^7.0.0"
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -26,12 +26,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yerim926/COMP229-A1.git"
+    "url": "git+https://github.com/yerim926/COMP229-Assignment1.git"
   },
   "author": "Yerim Cho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yerim926/COMP229-A1/issues"
+    "url": "https://github.com/yerim926/COMP229-Assignment1/issues"
   },
-  "homepage": "https://github.com/yerim926/COMP229-A1#readme"
+  "homepage": "https://github.com/yerim926/COMP229-Assignment1#readme"
 }
