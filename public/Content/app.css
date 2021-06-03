@@ -1,2 +1,27 @@
 /* Custom css goes here */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
+#homeDiv {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+#paragraph1 {
+    font-size:large;
+}
+
+#mission {
+    font-family: 'Roboto Slab', serif;
+}
+
+#missionP{
+    font-size:large;
+}
+
+#contactForm{
+    display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
