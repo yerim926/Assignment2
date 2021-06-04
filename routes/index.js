@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET home page. */
-router.get('home', function(req, res, next) {
+router.get('/home', function(req, res, next) {
   res.render('home', { title: 'Home', page: 'home'});
 });
 
