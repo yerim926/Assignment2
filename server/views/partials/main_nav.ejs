@@ -42,11 +42,43 @@
         </li>
 
         <li class="nav-item">
+        <% if (title == "Books") { %>
+         <a class="nav-link active" href="/book-list"><i class="fas fa-book"></i> Book </a>
+        <% } else  { %>
+         <a class="nav-link" href="/book-list"><i class="fas fa-book"></i> Book </a>
+        <% } %>
+        </li>
+
+        <li class="nav-item">
         <% if (title == "Contact") { %>
         <a class="nav-link active" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
         <% } else  { %>
         <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
         <% } %>
         </li>
+
+        <!-- <% if(typeof displayName == 'string' && displayName) { %>
+          <li class="navbar-text"><i class="fas fa-lg fa-user"></i>Welcome, <%= displayName %></li>
+          <li class="nav-item"><a href="/logout" class="nav-link">
+           <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+        <% } else {%>
+        <li class="nav-item"><a href="/login" class="nav-link">
+          <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+        <% } %>  -->
+
+        <!--Authentication Links -->
+
+        <% if(displayName) { %>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout"><i class="fas fa-sign-out-alt fa-lg"></i> Logout</a>
+        </li>
+        <% } else { %>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><i class="fas fa-sign-in-alt fa-lg"></i> Login</a>
+        </li>
+        <% } %>
+      </ul>
+
+
     </div>
   </nav>
